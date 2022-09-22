@@ -14,3 +14,73 @@ tlačítko Facebook:				 #3b5998
 tlačítko Facebook aktivní: #2b406e
 */
 
+body{
+    background-color: #b2bec3;
+}
+.obsah{
+    border: solid;
+    border-color: white;
+    border-radius: 10px;
+    background-color: white;
+    width: 550px;
+    position: relative;
+    top:150px;
+    
+
+}
+img{
+    border: solid;
+    border-color: white;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -90px;
+    right: -90px;
+}
+h1{
+    color: #d63031;
+    height: 30px;
+    margin: 30px;
+}
+.I {
+    height: 18px;
+    margin: 30px;
+
+}
+.II {
+    height: 18px;
+    padding-block: 30px;
+    margin: 30px;
+
+}
+.ok{
+    margin: 30px;
+}
+.ai{
+    border: solid;
+    border-radius: 5px;
+    border-color: #1da1f2;
+    background-color: #1da1f2;
+    text-align: center;
+    
+}
+.bi{
+    border: solid;
+    border-radius: 5px;
+    border-color: #3b5998;
+    background-color: #3b5998;
+    text-align: center;
+    
+}
+a{ 
+    height: 18px;
+    color: white;
+    text-decoration: none;
+}
+.ai:hover{
+    background-color: #0b7bc1;
+}
+.bi:hover{
+    background-color: #2b406e;
+}
