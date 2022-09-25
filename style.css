@@ -35,12 +35,11 @@ img{
     width: 150px;
     height: 150px;
     position: absolute;
-    top: -90px;
-    right: -90px;
+    top: -75px;
+    right: -75px;
 }
 h1{
     color: #d63031;
-    height: 30px;
     margin: 30px;
 }
 .I {
@@ -58,14 +57,17 @@ h1{
     margin: 30px;
 }
 .ai{
+    display:block;
     border: solid;
     border-radius: 5px;
     border-color: #1da1f2;
     background-color: #1da1f2;
     text-align: center;
+    margin-bottom: 5px;
     
 }
 .bi{
+    display: block;
     border: solid;
     border-radius: 5px;
     border-color: #3b5998;
