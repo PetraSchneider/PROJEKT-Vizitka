@@ -25,13 +25,13 @@ body{
     width: 550px;
     position: relative;
     top:150px;
-    
-
+    padding: 30px;
 }
 img{
     border: solid;
     border-color: white;
     border-radius: 50%;
+    border-width: 3px;
     width: 150px;
     height: 150px;
     position: absolute;
@@ -40,48 +40,33 @@ img{
 }
 h1{
     color: #d63031;
-    margin: 30px;
 }
-.I {
-    height: 18px;
-    margin: 30px;
 
-}
-.II {
-    height: 18px;
-    padding-block: 30px;
-    margin: 30px;
 
-}
-.ok{
-    margin: 30px;
+.odkaz{ 
+    display: block;
+    margin-bottom: 5px;
+    
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+    text-decoration: none;
 }
 .ai{
-    display:block;
-    border: solid;
     border-radius: 5px;
     border-color: #1da1f2;
     background-color: #1da1f2;
-    text-align: center;
-    margin-bottom: 5px;
     padding: 10px;
     
 }
 .bi{
-    display: block;
-    border: solid;
     border-radius: 5px;
     border-color: #3b5998;
     background-color: #3b5998;
-    text-align: center;
     padding: 10px;
     
 }
-a{ 
-    height: 18px;
-    color: white;
-    text-decoration: none;
-}
+
 .ai:hover{
     background-color: #0b7bc1;
 }
