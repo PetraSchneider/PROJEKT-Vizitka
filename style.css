@@ -16,8 +16,10 @@ tlačítko Facebook aktivní: #2b406e
 
 body{
     background-color: #b2bec3;
+    font-family: 'Nunito', sans-serif;
 }
 .obsah{
+    margin-left: calc(50% - 550px);
     border: solid;
     border-color: white;
     border-radius: 10px;
@@ -27,6 +29,7 @@ body{
     top:150px;
     padding: 30px;
     box-shadow: 5px 5px 5px gray;
+   
 }
 img{
     border: solid;
@@ -38,6 +41,7 @@ img{
     position: absolute;
     top: -75px;
     right: -75px;
+    box-shadow: 5px 5px 5px gray;
 }
 h1{
     color: #d63031;
@@ -48,7 +52,8 @@ h1{
     display: block;
     margin-bottom: 5px;
     
-    text-transform: capitalize;
+    text-transform: uppercase;
+    font-weight: bolder;
     text-align: center;
     color: white;
     text-decoration: none;
